@@ -1,0 +1,99 @@
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rectangle {
+    width: 65%;
+    background-color: #7B25D0;
+    border-radius: 10px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+    text-align: center;
+  }
+
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0px auto;
+    padding: 0px; 
+  }
+  
+  .registration-form h2 {
+    margin-bottom: 25px;
+  }
+  
+  .registration-form .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  
+  .registration-form label {
+    margin-right: 10px; 
+  }
+  
+  .registration-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+  }
+  
+  .registration-form .enter-button {
+    background-color: #b0f000; 
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    white-space: pre-wrap; 
+  }
+  
+  .registration-form .success-message {
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 435px;
+    white-space: pre-wrap; 
+    text-align: left;
+  }
+  
+  .registration-form .password-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .registration-form .password-container .enter-button {
+    margin-left: 20px;
+  }
+  
+
+  @media (max-width: 925px) {
+    .registration-form {
+    width: 100%;
+  }
+  .rectangle {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .registration-form .input-container {
+    flex-direction: column;
+  }
+  .registration-form .password-container {
+    flex-direction: column;
+ }
+  .registration-form .enter-button {
+    margin-right: 7%;
+    margin-top: 5%;
+ }
+  .registration-form .success-message {
+   margin-left: 2%;
+   text-align: center;
+ }
+}
