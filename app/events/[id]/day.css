@@ -1,0 +1,88 @@
+.event-details-container {
+    position: relative;
+    background-color: #f5f5dc; /* Бежевый цвет */
+    padding: 30px; /* Увеличенный отступ */
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 30px auto 0 auto; /* Увеличенный отступ сверху */
+    color: #6d28d9 !important;
+    border-color: #6d28d9 !important;
+    font-family: 'Georgia', serif; /* Красивый шрифт с засечками */
+    font-size: 18px; /* Увеличенный размер шрифта */
+}
+
+.event-details-date {
+    font-size: 24px; /* Размер шрифта для даты */
+    margin-bottom: 20px; /* Отступ снизу */
+    text-align: center; /* Центрирование по горизонтали */
+    color: #6d28d9 !important;
+    border: 2px solid #6d28d9 !important; 
+}
+
+.events-list {
+    margin-top: 20px; /* Отступ над списком мероприятий */
+}
+
+.event-card {
+    margin-bottom: 20px; /* Отступ между карточками мероприятий */
+    border: 2px solid #6d28d9 !important; 
+    position: relative; /* Позиционирование для button-group */
+}
+
+
+.event-card h3 {
+    font-size: 18px; /* Размер шрифта для заголовка организатора */
+    margin-bottom: 8px; /* Отступ снизу */
+}
+
+.event-card p {
+    font-size: 14px; /* Размер шрифта для описания, времени и места */
+    margin-bottom: 4px; /* Отступ снизу */
+    margin: 10px auto 0 auto;
+}
+
+.event-field span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.no-events {
+    font-style: italic; /* Курсивный шрифт для текста "На эту дату нет мероприятий." */
+    color: #7c3aed; /* цвет для текста "На эту дату нет мероприятий." */
+    margin-top: 10px; /* Отступ сверху для текста "На эту дату нет мероприятий." */
+}
+
+.button-group {
+    position: absolute;
+    top: 50%; /* Расположение по вертикали в середине */
+    transform: translateY(-50%);
+    right: 20px; /* Расположение справа */
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-button,
+.back-button {
+    background-color: #4CAF50; /* Зеленый цвет фона кнопки "Создать" и "Назад" */
+    color: white; /* Белый цвет текста на кнопке "Создать" и "Назад" */
+    border: none; /* Убираем границы кнопки "Создать" и "Назад" */
+    padding: 10px 20px; /* Поля вокруг текста на кнопке "Создать" и "Назад" */
+    font-size: 16px; /* Размер шрифта для кнопки "Создать" и "Назад" */
+    cursor: pointer; /* Изменяем курсор при наведении на кнопку "Создать" и "Назад" */
+    border-radius: 5px; /* Закругляем углы кнопки "Создать" и "Назад" */
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении на кнопку "Создать" и "Назад" */
+}
+
+.create-button:hover,
+.back-button:hover {
+    background-color: #45a049; /* Зеленый цвет фона кнопки "Создать" и "Назад" при наведении */
+}
+
+.create-button:active,
+.back-button:active {
+    background-color: #3e8e41; /* Зеленый цвет фона кнопки "Создать" и "Назад" при нажатии */
+}
+
